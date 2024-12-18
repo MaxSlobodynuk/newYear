@@ -139,7 +139,7 @@
   .team:before {
     height: 160px;
     width: 120px;
-    top: -134px;
+    top: -100px;
     left: auto;
     right: 20%;
   }
@@ -149,7 +149,7 @@
   }
 
   .team {
-    padding: 64px 0;
+    padding: 64px 10px;
   }
 
   .team-header h2 {

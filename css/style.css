@@ -1183,11 +1183,32 @@ body {
   height: auto;
 }
 
+.btn{
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+    font-family: inherit;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #FF00BB;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 16px;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+
 /**************************/
 .team {
   padding: 100px 0;
   background: url(../images/team-bg.svg) center/cover no-repeat;
   position: relative;
+  margin-bottom: 60px;
 }
 
 .team:before {
@@ -1473,6 +1494,7 @@ body {
   align-items: center;
   gap: 15px;
   margin-top: 24px;
+  margin-bottom: 60px;
 }
 
 .reviews .slider-buttons div {
